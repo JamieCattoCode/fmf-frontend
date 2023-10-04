@@ -1,0 +1,28 @@
+.outerPaper {
+    margin-top: 20px;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.details-wrapper > * {
+    padding: 0;
+    margin: 0;
+}
+
+.image-wrapper {
+    padding: 1.3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.furniture-type-chip {
+    justify-self: last baseline;
+}
